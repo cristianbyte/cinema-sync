@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinemaSync</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="cinemaIcon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="logo">
+            <img src="./movie-play-solid-60.png" alt="">
+            <h2>CinemaSync</h2>
+        </div>
+        <div class="input__box">
+            <input type="text" name="" id="search" required placeholder="Buscar">
+            <i class='bx bx-search' style='color:#e90064'></i>
+        </div>
+    </div>
+
+    <main>
+        <div class="moviePoster">
+            <div class="moviePoster__img">
+                <img src="https://image.tmdb.org/t/p/original/feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg" alt="">
+            </div>
+            <div class="moviePosterInfo">
+                <h2>The Marvels</h2>
+                <div class="moviePoster__vote">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                    <i class='bx bx-star'></i>
+                    <div class="vote">3.4</div>
+                </div>
+                <div class="moviePoster__description">
+                    Carol Danvers, aka Captain Marvel, has reclaimed her identity from the tyrannical Kree and taken
+                    revenge
+                    on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a
+                    destabilized universe. When her duties send her to an anomalous wormhole linked to a Kree
+                    revolutionary,
+                    her powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and
+                    Carol’s
+                    estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must
+                    team
+                    up and learn to work in concert to save the universe.
+                </div>
+                <div class="moviePoster__genres">
+                    <h4>Action</h4>
+                    <h4>Science fiction</h4>
+                </div>
+            </div>
+            <div id="movieSlider" class="movieSlider">
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
