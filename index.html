@@ -14,18 +14,22 @@
     <div class="banner">
         <div class="logo">
             <img src="./movie-play-solid-60.png" alt="">
-            <h2>CinemaSync</h2>
+            <a href="./index.html" >CinemaSync</a>
         </div>
         <div class="input__box">
-            <input type="text" name="" id="search" required placeholder="Buscar">
-            <i class='bx bx-search' style='color:#e90064'></i>
+            <form id="form">
+                <input type="text" name="" id="search" required placeholder="Buscar">
+                <button type="submit">
+                    <i class='bx bx-search' style='color:#e90064'></i>
+                </button>
+            </form>
         </div>
     </div>
 
     <main>
         <div class="moviePoster">
             <div class="moviePoster__img">
-                <img src="https://image.tmdb.org/t/p/original/feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg" alt="">
+                <img id="poster" src="" alt="">
             </div>
             <div class="moviePosterInfo">
                 <h2>The Marvels</h2>
